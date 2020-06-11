@@ -1,4 +1,9 @@
-@import 'base/variables';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap.min';
+@import 'libs/slick';
+@import 'libs/animate.min';
+
+@import "base/variables";
 @import "base/animations";
 
 *{
@@ -6,19 +11,14 @@
 }
 
 @font-face{
-
     font-family: 'Museo Sans Cyrl';
-    
+    font-display: swap;
     src: url('../fonts/MuseoSansCyrl-300.eot');
-    
     src: url('../fonts/MuseoSansCyrl-300.eot?iefix') format('eot'),
-    
     url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
-    
     url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
-    
-    font-weight: 300 400 500 600 700;
-      }
+    font-weight: 100 300 400 500 600 700;
+    }
 
 .container{
     max-width: 950px;
